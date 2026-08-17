@@ -1,17 +1,96 @@
+# Visual Studio and local IDE state
 .vs/
-bin/
-obj/
-*.user
+.vscode/
+.idea/
 *.suo
-.vs/
-bin/
-obj/
-packages/
 *.user
-*.suo
-.vs/
-bin/
-obj/
-packages/
-*.user
-*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.DotSettings.user
+# Build outputs and intermediate files
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+artifacts/
+TestResults/
+BenchmarkDotNet.Artifacts/
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.pch
+*.tlog
+*.cache
+*.tmp
+*.log
+# NuGet packages and generated package artifacts
+[Pp]ackages/
+.nuget/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts.json
+# ClickOnce, installers and publish output
+**/[Aa]pplication [Ff]iles/
+**/[Cc]ompilados/
+**/[Aa]pp.publish/
+**/[Pp]ublish/
+**/[Pp]ublished/
+**/[Ss]etup.exe
+*.application
+*.appref-ms
+*.deploy
+publish.htm
+# Signing keys, certificates with private keys, and publish secrets
+*.pfx
+*.p12
+*.snk
+*.key
+*.pubxml.user
+*.publishproj.user
+# Environment-specific configuration and local secrets
+.env
+.env.*
+!.env.example
+!.env.template
+*.config.local
+*.config.user
+appsettings.Local.json
+appsettings.*.local.json
+appsettings.*.secrets.json
+secrets.json
+*.secrets.json
+# Local databases, backups and generated reports
+*.mdf
+*.ldf
+*.ndf
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+# Test coverage and profiling output
+.coverage
+.coverage.*
+*.coverage
+*.coveragexml
+coverage/
+coverage.*
+TestResult.xml
+# Editor, operating-system and temporary files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*.orig
+*.rej
+*~
+.history/
